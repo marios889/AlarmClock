@@ -20,7 +20,7 @@ class main{
             System.out.println("Invalid format use (HH:mm am/pm)");
        }
        }
-       String filePath = "songname.wav";
+       String filePath = "songname.wav"; 
        AlarmClock alarmClock = new AlarmClock(alarm,filePath,scanner);
        Thread thread = new Thread(alarmClock);
        thread.start();
