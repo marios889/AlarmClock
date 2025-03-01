@@ -17,7 +17,7 @@ class main{
        }
        catch(DateTimeParseException e)
        {
-            System.out.println("Invalid format use (HH:mm:ss)");
+            System.out.println("Invalid format use (HH:mm am/pm)");
        }
        }
        String filePath = "my own personal jesus.wav";
