@@ -10,7 +10,7 @@ class main{
        while(alarm == null)
        {
        try{
-       System.out.print("Enter The alarm Time (HH:mm:ss): ");
+       System.out.print("Enter The alarm Time (HH:mm am/pm): ");
        String inputTime = scanner.nextLine();
        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm a");
        alarm = LocalTime.parse(inputTime,formatter);
