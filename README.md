@@ -16,7 +16,7 @@ Lightweight and easy to use in the terminal
 
 🛠️ Requirements
 
-[Your programming language here, e.g., Python 3]
+Java Progamming Language
 
 Standard libraries (no extra installation needed)
 
@@ -25,11 +25,6 @@ Standard libraries (no extra installation needed)
 Clone or download this repository
 
 Open a terminal in the project folder
-
-Run the program:
-
-python alarm_clock.py
-
 
 Enter the time for the alarm (format: HH:MM)
 
