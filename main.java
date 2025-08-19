@@ -12,6 +12,9 @@ class main{
        try{
        System.out.print("Enter The alarm Time (HH:mm am/pm): ");
        String inputTime = scanner.nextLine();
+        System.out.print("Enter Your File Path : ");
+        String filePath = scanner.nextLine();
+       
        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm a");
        alarm = LocalTime.parse(inputTime,formatter);
        }
@@ -20,7 +23,7 @@ class main{
             System.out.println("Invalid format use (HH:mm am/pm)");
        }
        }
-       String filePath = "songname.wav"; 
+       filePath = "songname.wav"; 
        AlarmClock alarmClock = new AlarmClock(alarm,filePath,scanner);
        Thread thread = new Thread(alarmClock);
        thread.start();
@@ -38,3 +41,4 @@ class main{
        
           
 }
+
