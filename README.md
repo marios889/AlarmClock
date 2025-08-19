@@ -24,12 +24,16 @@ Standard libraries (no extra installation needed)
 
 Clone or download this repository
 
-Open a terminal in the project folder
+  1) Open a terminal in the project folder
+  2) Run main.java File
+  3) Enter Your Specified Alarm Time
+  4) Enter Your File path for a song to play
 
 Enter the time for the alarm (format: HH:MM)
 
 ⚙️ Example
 Enter alarm time (HH:MM): 07:30
+Enter File Path : Example.wav
 Alarm set for 07:30
 Wake up! ⏰
 
